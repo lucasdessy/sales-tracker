@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+
+}
+
+.grid {
+  display: flex;
+  min-height: 40rem;
+  min-width: 100rem;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 2rem;
+  background: white;
+  color: black;
+}
